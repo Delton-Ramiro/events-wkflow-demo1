@@ -4,7 +4,9 @@ on:
     types:
       - opened
     branches:
-      - main
+      - main #main
+      - "dev-*" # dev-delton dev-ramiro and so on..
+      - "dev/*" # dev/delton dev/ramiro and so on..
   workflow_dispatch:
   push:
     branches:
